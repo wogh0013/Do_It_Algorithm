@@ -2,14 +2,14 @@ package Chap03.Unit2;
 
 public class GenericClassTester {
     static class GenericClass<T>{
-        private T xyz;
+        private T xyzc;
 
         GenericClass(T t){ //생성자
-            this.xyz = t;
+            this.xyzc = t;
         }
 
         T getXyz(){        //xyz 반환
-            return xyz;
+            return xyzc;
         }
     }
 
