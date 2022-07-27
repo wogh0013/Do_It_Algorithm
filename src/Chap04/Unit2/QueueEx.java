@@ -11,6 +11,7 @@ public class QueueEx {
         que.offer("Data2");
         que.offer("Data3");
         que.offer("Data4");
+        que.offer("Data5");
 
         System.out.println("Queue 값 포함 여부 : " + que.contains("Data1"));
         System.out.println("Queue 다음 출력값 확인 : " + que.peek());
